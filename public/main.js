@@ -16,7 +16,7 @@ const init = () => {
 init();
 
 // Joke API endpoint
-const endpoint = 'https://v2.jokeapi.dev/joke/Any?type=twopart';
+const endpoint = 'https://v2.jokeapi.dev/joke/Any?safe-mode&type=twopart';
 
 // promise for getting a joke from the API
 const getJoke = () => new Promise((resolve, reject) => {
